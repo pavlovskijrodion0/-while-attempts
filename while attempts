@@ -1,0 +1,7 @@
+
+    while attempts > 0:
+        try:
+            guess = int(input("Enter your guess: "))
+        except ValueError:
+            print("Please enter a valid number.")
+            continue
